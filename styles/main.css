@@ -1,0 +1,137 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.p-indent {
+    text-indent: 2rem;
+}
+.d-none {
+    display: none;
+}
+/* HEADER */
+header {
+    background-image: url(../assets/political-data-blog-header-image.jpg);
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+}
+div .d-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.email-style {
+    display: flex;
+    align-items: center;
+}
+.inactive-color {
+    color: #74b5ff
+}
+.header-email {
+    color: #67c5ff;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #000000;
+    text-decoration: none;
+    background-color: #979797;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(43, 117, 255)
+}
+.bg-light {
+    /* --bs-bg-opacity: 1; */
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0px 0px 4px #707070;
+}
+
+nav {
+    border: 1px solid black;
+    padding: 0;
+    opacity: .9;
+}
+nav a {
+    line-height: 2;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #c4c4c4;
+}
+a {
+    text-decoration: none;
+}
+
+.active-bg {
+    background-color: #c4c4c4;
+}
+
+h1 a {
+    color: #000000;
+    text-shadow: 0px 0px 2px #000000;
+}
+h1 img {
+    width: 100px;
+}
+h2, h3, h4 {
+    color: #0051a5;
+    text-shadow:  0px 1px 3px #707070;
+}
+.h2-title {
+    background-color: #315070;
+    box-shadow: 0px 0px 4px #000000;
+    padding: .5rem 0;
+    color: #ffffff;
+    border-radius: 5rem;
+}
+/* MAIN */
+.senate-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.t-indent {
+    text-indent: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0px 0px 4px #707070;
+}
+
+thead, th, tr, td {
+    border: 1px solid black;
+}
+thead {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+tfoot {
+    background-color: #8a8a8a;
+    color: #ffffff;
+}
+/* FOOTER */
+
+.footer-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    box-shadow:  0px 0px 5px #707070;
+}
+.footer-style p {
+    padding: .5rem;
+    margin: .5rem 0
+}
+
+.border-right {
+    border-right: 2px solid #000000;
+}
